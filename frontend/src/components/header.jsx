@@ -21,7 +21,7 @@ const [open, setOpen] = useState(false);
         </button>
 
         {open && (
-          <div className="absolute right-0 mt-2 w-40 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5">
+          <div className="absolute right-2 mt-32 w-40 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5">
             <div className="py-1">
               <a
                 href="#configuracion"
