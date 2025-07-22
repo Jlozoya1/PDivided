@@ -1,8 +1,16 @@
-import Resumen from './resumen/index';
-import Ventas from './ventas/index';
-import Menu from './menu';
-import Rendimiento from './rendimiento/index';
-import Clientes from './clientes/index';
+import { lazy } from 'react';
+
+const Resumen = lazy(() => import('./resumen/index'));
+const Ventas = lazy(() => import('./ventas/index'));
+const Menu = lazy(() => import('./menu'));
+const Rendimiento = lazy(() => import('./rendimiento/index'));
+const Clientes = lazy(() => import('./clientes/index'));
+
+// import Resumen from './resumen/index';
+// import Ventas from './ventas/index';
+// import Menu from './menu';
+// import Rendimiento from './rendimiento/index';
+// import Clientes from './clientes/index';
 
 import { ListFilterPlus,Download } from 'lucide-react';
 import { useState } from 'react';
